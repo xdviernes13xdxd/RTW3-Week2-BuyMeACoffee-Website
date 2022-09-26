@@ -168,7 +168,7 @@ export default function Home() {
       <Head>
         <title>Buy Wild3 a Coffee!</title>
         <meta name="description" content="Tipping site" />
-        <link rel="icon" href="/favicon.png" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>

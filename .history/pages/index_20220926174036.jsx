@@ -166,14 +166,14 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Buy Wild3 a Coffee!</title>
+        <title>Buy Albert a Coffee!</title>
         <meta name="description" content="Tipping site" />
-        <link rel="icon" href="/favicon.png" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Buy Wild3 a Coffee!
+          Buy Albert a Coffee!
         </h1>
         
         {currentAccount ? (
@@ -195,7 +195,7 @@ export default function Home() {
               <br/>
               <div class="formgroup">
                 <label>
-                  Send Wild3 a message
+                  Send Albert a message
                 </label>
                 <br/>
 
@@ -236,11 +236,11 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <a
-          href="https://twitter.com/wild3_eth"
+          href="https://alchemy.com/?a=roadtoweb3weektwo"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Created by @wild3_eth!
+          Created by @thatguyintech for Alchemy's Road to Web3 lesson two!
         </a>
       </footer>
     </div>
